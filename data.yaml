@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fire', 'yangn']
+
+roboflow:
+  workspace: yasemins-workspace
+  project: yangin-tespiti-j6opj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yasemins-workspace/yangin-tespiti-j6opj/dataset/2
